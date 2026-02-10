@@ -30,3 +30,8 @@
 - scrapy-crawlera
 - google-cloud-storage
 - scrapy-sessions
+
+## Other Notes
+- Needed to downgrade Python to 3.9.10 for compatibility with Scrapy 2.4
+- Needed to downgrade some other packages as they were too new to be compatible with the Scrapy version
+- `aaIndustrialProducts.json` is not the complete scrape as there was many products on the website and it was Scraping for quite a long time.
